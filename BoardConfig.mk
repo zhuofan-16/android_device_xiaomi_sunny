@@ -181,3 +181,4 @@ include vendor/xiaomi/mojito/BoardConfigVendor.mk
 
 # Inherit Prebuilt Vendor Images
 include vendor/xiaomi/mojito-vendor/BoardConfig.mk
+SELINUX_IGNORE_NEVERALLOWS := true
