@@ -14,9 +14,9 @@
 // limitations under the License.
 //
 cc_library_static {
-    name: "libinit_mojito",
+    name: "libinit_sunny",
     recovery_available: true,
-    srcs: ["init_mojito.cpp"],
+    srcs: ["init_sunny.cpp"],
     shared_libs: ["libbase"],
     include_dirs: [
         "system/core/base/include",

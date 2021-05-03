@@ -18,6 +18,8 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/mojito/mojito-vendor.mk)
+
+#Camera
 PRODUCT_PACKAGES += \
     GoogleCameraGo
 # API
@@ -186,7 +188,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.mojito
+    android.hardware.power-service.sunny
 
 # Telephony
 PRODUCT_PACKAGES += \

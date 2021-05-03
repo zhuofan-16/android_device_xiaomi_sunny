@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/mojito
+DEVICE_PATH := device/xiaomi/sunny
 
 # Architecture
 TARGET_ARCH := arm64
@@ -73,8 +73,8 @@ TARGET_USES_HWC2 := true
 TARGET_USES_ION := true
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_mojito
-TARGET_RECOVERY_DEVICE_MODULES := libinit_mojito
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_sunny
+TARGET_RECOVERY_DEVICE_MODULES := libinit_sunny
 
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
