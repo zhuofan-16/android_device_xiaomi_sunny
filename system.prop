@@ -71,4 +71,4 @@ ro.hardware.wlan.vendor=qcom
 
 # Xiaomi
 ro.fota.oem=Xiaomi
-ro.product.mod_device=mojito_global
+ro.product.mod_device=sunny_global
