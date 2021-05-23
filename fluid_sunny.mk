@@ -10,7 +10,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from mojito device
 $(call inherit-product, device/xiaomi/sunny/device.mk)
-$(call inherit-product-if-exists, vendor/gapps/config.mk)
 # Inherit some common Fluid stuff
 TARGET_USES_AOSP_RECOVERY := true
 TARGET_BOOT_ANIMATION_RES := 1080
