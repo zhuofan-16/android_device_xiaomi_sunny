@@ -30,10 +30,6 @@ WITH_GAPPS := true
 TARGET_SUPPORT_FACE_UNLOCK := true
 TARGET_INCLUDE_STOCK_ARCORE := false
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-#Fluid
-PRODUCT_PRODUCT_PROPERTIES += \
-  ro.fluid.maintainer=寒词ZhuoFan \
-  ro.fluid.cpu=Snapdragon 678 Mobile Platform
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=sunny \
     PRIVATE_BUILD_DESC="redfin-user 11 RQ1A.210105.003 7005429 release-keys"
