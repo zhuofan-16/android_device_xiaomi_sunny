@@ -1,4 +1,4 @@
-FluidOS (A11/R) for Redmi Note 10 (sunny)
+DOTOS (A11/R) for Redmi Note 10 (sunny)
 ======================================
 
 # Device specifications

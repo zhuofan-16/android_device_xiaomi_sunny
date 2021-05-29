@@ -16,10 +16,10 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_MINIMAL_GAPPS := false
 TARGET_INCLUDE_AOSP_REPLACEMENTS := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
-$(call inherit-product, vendor/fluid/config/common_full_phone.mk)
+$(call inherit-product, vendor/dot/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := fluid_sunny
+PRODUCT_NAME := dot_sunny
 TARGET_GAPPS_ARCH := arm64
 PRODUCT_DEVICE := sunny
 PRODUCT_BRAND := Redmi

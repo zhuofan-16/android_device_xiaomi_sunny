@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/fluid_sunny.mk
+    $(LOCAL_DIR)/dot_sunny.mk
